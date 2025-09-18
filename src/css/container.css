@@ -10,10 +10,18 @@
   .container {
     max-width: 768px;
   }
+
+  .gallery-item {
+    width: calc((100% - 24px) / 2);
+  }
 }
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1200px) {
   .container {
     max-width: 1200px;
+  }
+
+  .gallery-item {
+    width: calc((100% - 48px) / 3);
   }
 }
